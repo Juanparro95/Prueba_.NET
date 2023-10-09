@@ -1,0 +1,14 @@
+D:\Examenes\Prueba Panda Pe\Models\bin\Debug\net7.0\General.deps.json
+D:\Examenes\Prueba Panda Pe\Models\bin\Debug\net7.0\General.runtimeconfig.json
+D:\Examenes\Prueba Panda Pe\Models\bin\Debug\net7.0\General.dll
+D:\Examenes\Prueba Panda Pe\Models\bin\Debug\net7.0\General.pdb
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\General.csproj.AssemblyReference.cache
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\General.GeneratedMSBuildEditorConfig.editorconfig
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\General.AssemblyInfoInputs.cache
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\General.AssemblyInfo.cs
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\General.csproj.CoreCompileInputs.cache
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\General.dll
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\refint\General.dll
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\General.pdb
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\General.genruntimeconfig.cache
+D:\Examenes\Prueba Panda Pe\Models\obj\Debug\net7.0\ref\General.dll

@@ -1,0 +1,152 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="container mt-5">
+    <h2>Tabla de Candidatos</h2>
+    <button type="button" class="btn btn-primary guardar-editar-candidato">Agregar Candidato</button>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombres Completos</th>
+                <th>Email</th>
+                <th>Cumpleaños</th>
+                <th>Fecha Ingreso</th>
+                <th colspan="3"></th>
+            </tr>
+        </thead>
+        <tbody id="tabla-candidatos">
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal para mostrar las experiencias -->
+<div class="modal fade" id="modalExperiencia" tabindex="-1" role="dialog" aria-labelledby="modalExperienciaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalExperienciaLabel">Experiencias del Candidato</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <button type="button" class="btn btn-primary btn-agregar-editar-experiencia">Agregar Experiencia</button>
+                <!-- Tabla para mostrar las experiencias -->
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Compañía</th>
+                            <th>Trabajo</th>
+                            <th>Descripción</th>
+                            <th>Salario</th>
+                            <th>Fecha Inicio</th>
+                            <th>Fecha Fin</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaExperiencias">
+                        <!-- Aquí se agregarán las filas de la tabla mediante JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary cerrarModales" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para Agregar Experiencias -->
+<div class="modal fade" id="modalAgregarExperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Experiencias</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="formAgregarExperiencia">
+                    <input type="hidden" id="idCandidate" name="IdCandidate" value="">
+                    <div class="mb-3">
+                        <label for="company" class="form-label">Empresa</label>
+                        <input type="text" class="form-control" id="company" name="Company">
+                    </div>
+                    <div class="mb-3">
+                        <label for="job" class="form-label">Puesto</label>
+                        <input type="text" class="form-control" id="job" name="Job">
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Descripción</label>
+                        <input type="text" class="form-control" id="description" name="Description">
+                    </div>
+                    <div class="mb-3">
+                        <label for="salary" class="form-label">Salario</label>
+                        <input type="number" class="form-control" id="salary" name="Salary">
+                    </div>
+                    <div class="mb-3">
+                        <label for="beginDate" class="form-label">Fecha de Inicio</label>
+                        <input type="date" class="form-control" id="beginDate" name="BeginDate">
+                    </div>
+                    <div class="mb-3">
+                        <label for="endDate" class="form-label">Fecha de Fin</label>
+                        <input type="date" class="form-control" id="endDate" name="EndDate">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="btnGuardarExperiencia">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalCandidato" tabindex="-1" role="dialog" aria-labelledby="modalEditarPerfilLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalEditarPerfilLabel">Editar Perfil</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="formCandidato">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name" name="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="surname" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="surname" name="Surname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="birthday" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" class="form-control" id="birthday" name="Birthday">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="Email">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="btnGuardarCambios">Guardar Cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/js/candidates/table.js"></script>
+    <script src="~/js/candidates/Candidate.js"></script>
+}
