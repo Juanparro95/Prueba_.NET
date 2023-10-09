@@ -9,3 +9,14 @@ D:\Examenes\Prueba Panda Pe\PandaPeUtilidades\obj\Debug\net7.0\PandaPeUtilidades
 D:\Examenes\Prueba Panda Pe\PandaPeUtilidades\obj\Debug\net7.0\refint\PandaPeUtilidades.dll
 D:\Examenes\Prueba Panda Pe\PandaPeUtilidades\obj\Debug\net7.0\PandaPeUtilidades.pdb
 D:\Examenes\Prueba Panda Pe\PandaPeUtilidades\obj\Debug\net7.0\ref\PandaPeUtilidades.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\bin\Debug\net7.0\PandaPeUtilidades.deps.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\bin\Debug\net7.0\PandaPeUtilidades.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\bin\Debug\net7.0\PandaPeUtilidades.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\obj\Debug\net7.0\PandaPeUtilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\obj\Debug\net7.0\PandaPeUtilidades.AssemblyInfoInputs.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\obj\Debug\net7.0\PandaPeUtilidades.AssemblyInfo.cs
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\obj\Debug\net7.0\PandaPeUtilidades.csproj.CoreCompileInputs.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\obj\Debug\net7.0\PandaPeUtilidades.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\obj\Debug\net7.0\refint\PandaPeUtilidades.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\obj\Debug\net7.0\PandaPeUtilidades.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\PandaPeUtilidades\obj\Debug\net7.0\ref\PandaPeUtilidades.dll

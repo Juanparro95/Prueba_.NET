@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KOiHfEB3tdwF70S9sSvkt2buWFYzYQsZIkP3fnt7AeQF4fC66lbgsuH1tGwARr3Up8uLMh39a2z7sgnQdKJSUQ==",
+  "dgSpecHash": "7/Qu9eQpPasBf7AA+h8zYDfExN5LZJhhWOopJPy33u7PwNqeVRH7sPa90AZUdJgOJXVOITmjBE1/YXYDZxEWtA==",
   "success": true,
-  "projectFilePath": "D:\\Examenes\\Prueba Panda Pe\\Models\\General.csproj",
+  "projectFilePath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\General.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juan_\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\juan_\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

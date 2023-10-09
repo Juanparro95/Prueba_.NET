@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Prueba_Panda_Pe.Migrations.ApplicationDbContextTempMigrations
+namespace Prueba_Panda_Pe.Migrations
 {
     /// <inheritdoc />
-    public partial class MigracionCuartas : Migration
+    public partial class FirstSMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj",
+      "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj",
       "projectName": "PandaPeUtilidades",
-      "projectPath": "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj",
+      "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj",
       "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-      "outputPath": "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\obj\\",
+      "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juan_\\AppData\\Roaming\\NuGet\\NuGet.Config",

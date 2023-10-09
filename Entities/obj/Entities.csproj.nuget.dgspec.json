@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj": {}
+    "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj": {
+    "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Entities\\obj\\",
+        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juan_\\AppData\\Roaming\\NuGet\\NuGet.Config",

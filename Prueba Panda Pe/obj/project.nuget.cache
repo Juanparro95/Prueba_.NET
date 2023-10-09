@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zddxszuRSY0mYoFZeVIZ7qW2ICQ8GrwnrKLidiD9mr0KWRwUBGUismaFA2cM9jQHfGuUs5bOaCqxSFzi0h3e5Q==",
+  "dgSpecHash": "I6D+fBboZMSd1RBGG6WcJ8Yp+7UtOAoqblCEe1Zte10Q2XifwiD4PPUQqNwOW1YM+YeGz/bDGsePmlbrqyEq8Q==",
   "success": true,
-  "projectFilePath": "D:\\Examenes\\Prueba Panda Pe\\Prueba Panda Pe\\Prueba Panda Pe.csproj",
+  "projectFilePath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Prueba Panda Pe\\Prueba Panda Pe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juan_\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\juan_\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

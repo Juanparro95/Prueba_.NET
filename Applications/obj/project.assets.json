@@ -3076,11 +3076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Applications\\Applications.csproj",
+      "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Applications\\Applications.csproj",
       "projectName": "Applications",
-      "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Applications\\Applications.csproj",
+      "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Applications\\Applications.csproj",
       "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-      "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Applications\\obj\\",
+      "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Applications\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3097,14 +3097,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj"
+            "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj"
             },
-            "D:\\Examenes\\Prueba Panda Pe\\Models\\General.csproj": {
-              "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Models\\General.csproj"
+            "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\General.csproj": {
+              "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\General.csproj"
             },
-            "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj": {
-              "projectPath": "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj"
+            "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj": {
+              "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj"
             }
           }
         }

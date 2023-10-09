@@ -98,3 +98,103 @@ D:\Examenes\Prueba Panda Pe\Prueba Panda Pe\obj\Debug\net7.0\refint\Prueba Panda
 D:\Examenes\Prueba Panda Pe\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.pdb
 D:\Examenes\Prueba Panda Pe\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.genruntimeconfig.cache
 D:\Examenes\Prueba Panda Pe\Prueba Panda Pe\obj\Debug\net7.0\ref\Prueba Panda Pe.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.csproj.AssemblyReference.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.AssemblyInfoInputs.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.AssemblyInfo.cs
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.csproj.CoreCompileInputs.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.MvcApplicationPartsAssemblyInfo.cs
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.MvcApplicationPartsAssemblyInfo.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.RazorAssemblyInfo.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.RazorAssemblyInfo.cs
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\refint\Prueba Panda Pe.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\appsettings.Development.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\appsettings.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Prueba Panda Pe.staticwebassets.runtime.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Prueba Panda Pe.exe
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Prueba Panda Pe.deps.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Prueba Panda Pe.runtimeconfig.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Prueba Panda Pe.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Prueba Panda Pe.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Autofac.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\AutoMapper.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Azure.Core.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Azure.Identity.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Humanizer.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\MediatR.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.CodeDom.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Applications.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Entities.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\General.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\PandaPeUtilidades.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Applications.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Entities.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\General.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\PandaPeUtilidades.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets\msbuild.Prueba Panda Pe.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets\msbuild.build.Prueba Panda Pe.props
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Prueba Panda Pe.props
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Prueba Panda Pe.props
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets.build.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets.development.json
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\scopedcss\bundle\Prueba Panda Pe.styles.css
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\scopedcss\projectbundle\Prueba Panda Pe.bundle.scp.css
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.csproj.CopyComplete
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.genruntimeconfig.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\ref\Prueba Panda Pe.dll

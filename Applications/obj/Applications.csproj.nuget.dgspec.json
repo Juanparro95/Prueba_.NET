@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Examenes\\Prueba Panda Pe\\Applications\\Applications.csproj": {}
+    "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Applications\\Applications.csproj": {}
   },
   "projects": {
-    "D:\\Examenes\\Prueba Panda Pe\\Applications\\Applications.csproj": {
+    "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Applications\\Applications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Applications\\Applications.csproj",
+        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Applications\\Applications.csproj",
         "projectName": "Applications",
-        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Applications\\Applications.csproj",
+        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Applications\\Applications.csproj",
         "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Applications\\obj\\",
+        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Applications\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj"
+              "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj"
               },
-              "D:\\Examenes\\Prueba Panda Pe\\Models\\General.csproj": {
-                "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Models\\General.csproj"
+              "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\General.csproj": {
+                "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\General.csproj"
               },
-              "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj": {
-                "projectPath": "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj"
+              "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj": {
+                "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj": {
+    "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Entities\\obj\\",
+        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,14 +138,14 @@
         }
       }
     },
-    "D:\\Examenes\\Prueba Panda Pe\\Models\\General.csproj": {
+    "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\General.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Models\\General.csproj",
+        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\General.csproj",
         "projectName": "General",
-        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Models\\General.csproj",
+        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\General.csproj",
         "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Models\\obj\\",
+        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -217,14 +217,14 @@
         }
       }
     },
-    "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj": {
+    "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj",
+        "projectUniqueName": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj",
         "projectName": "PandaPeUtilidades",
-        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\PandaPeUtilidades.csproj",
+        "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj",
         "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\PandaPeUtilidades\\obj\\",
+        "outputPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
