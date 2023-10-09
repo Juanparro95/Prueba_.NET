@@ -32,7 +32,7 @@
         {
             var candidate = await _candidateDAL.GetCandidateByIdAsync(request.Id);
 
-            return (candidate == null) ? throw new Base($"El candidato consultado no está registrado, intenta con otro código.") :
+            return (candidate == null) ? throw new PandaPeUtilidadesException($"El candidato consultado no está registrado, intenta con otro código.") :
             
                 new Candidate
                     {

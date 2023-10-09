@@ -33,7 +33,7 @@
             var candidate = await _candidateExperienceDAL.GetExperienceByIdAsync(request.Id);
 
             return candidate == null
-                ? throw new Base($"La experiencia consultada no está registrada, intenta con otro código.")
+                ? throw new PandaPeUtilidadesException($"La experiencia consultada no está registrada, intenta con otro código.")
                 : new CandidateExperience
                 {
                     Company = candidate.Company,

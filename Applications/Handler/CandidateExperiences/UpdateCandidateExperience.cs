@@ -48,7 +48,7 @@
 
             bool addNewCandidate = await _candidateExperienceDAL.UpdateExperienceAsync(candidateItem);
 
-            return (!addNewCandidate) ? throw new Base($"Hubo un error al actualizar la experiencia, por favor intentalo de nuevo.") :
+            return (!addNewCandidate) ? throw new PandaPeUtilidadesException($"Hubo un error al actualizar la experiencia, por favor intentalo de nuevo.") :
     
             new CandidateExperience
                 {

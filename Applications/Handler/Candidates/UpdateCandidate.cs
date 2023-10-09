@@ -45,7 +45,7 @@
 
             bool addNewCandidate = await _candidateDAL.UpdateCandidateAsync(candidateItem);
 
-            return (!addNewCandidate) ? throw new Base($"Hubo un error al actualizar al candidato {request.Name}, por favor intentalo de nuevo.") :
+            return (!addNewCandidate) ? throw new PandaPeUtilidadesException($"Hubo un error al actualizar al candidato {request.Name}, por favor intentalo de nuevo.") :
                 new Candidate
                     {
                         IdCandidate = candidateItem.IdCandidate,

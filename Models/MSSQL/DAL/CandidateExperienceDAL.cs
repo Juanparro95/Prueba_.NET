@@ -4,6 +4,7 @@
     using General.Interfaces;
     using Microsoft.EntityFrameworkCore;
     using Models.MSSQL;
+    using PandaPeUtilidades.Exceptions;
 
     /// <summary>
     /// Represents a data access layer for managing candidate experiences
@@ -52,15 +53,21 @@
         /// <returns>True if the operation is successful, otherwise false.</returns>
         public async Task<bool> DeleteExperienceAsync(int experienceId)
         {
-            var candidateSearch = await this.GetExperienceByIdAsync(experienceId);
-
-            if (candidateSearch == null)
+            try
             {
-                return false;
-            }
+                var candidateSearch = await this.GetExperienceByIdAsync(experienceId);
 
-            _dbContext.CandidateExperience.Remove(candidateSearch);
-            return await this.SaveChangesAsync();
+                if (candidateSearch == null)
+                {
+                    return false;
+                }
+
+                _dbContext.CandidateExperience.Remove(candidateSearch);
+                return await this.SaveChangesAsync();
+            } catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al querer eliminar la experiencia de usuario.");
+            }
         }
 
         /// <summary>
@@ -69,7 +76,14 @@
         /// <returns>A collection of candidate experiences.</returns>
         public async Task<IEnumerable<CandidateExperienceSQL>> GetAllExperiencesAsync()
         {
-            return await _dbContext.CandidateExperience.Include(experience => experience.Candidate).ToListAsync(); ;
+            try
+            {
+                return await _dbContext.CandidateExperience.Include(experience => experience.Candidate).ToListAsync(); ;
+            } 
+            catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al querer listar todas las experiencias del usuario.");
+            }
         }
 
         /// <summary>
@@ -79,7 +93,14 @@
         /// <returns>The candidate's experience if found, otherwise null.</returns>
         public async Task<CandidateExperienceSQL> GetExperienceByIdAsync(int candidateId)
         {
-            return await _dbContext.CandidateExperience.Where(e => e.IdCandidateExperience == candidateId).FirstOrDefaultAsync();
+            try
+            {
+                return await _dbContext.CandidateExperience.Where(e => e.IdCandidateExperience == candidateId).FirstOrDefaultAsync();
+            }
+            catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al querer listar la experiencia del usuario seleccionado.");
+            }
         }
 
 
@@ -90,7 +111,14 @@
         /// <returns>A collection of candidate experiences for the specified candidate.</returns>
         public async Task<IEnumerable<CandidateExperienceSQL>> GetExperiencesByCandidateIdAsync(int candidateId)
         {
-            return await _dbContext.CandidateExperience.Where(e => e.IdCandidate == candidateId).ToListAsync();
+            try
+            {
+                return await _dbContext.CandidateExperience.Where(e => e.IdCandidate == candidateId).ToListAsync();
+            }
+            catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al querer listar la experiencia del usuario por candidato seleccionado.");
+            }
         }
 
 
@@ -100,7 +128,14 @@
         /// <returns>True if changes were successfully saved, otherwise false.</returns>
         public async Task<bool> SaveChangesAsync()
         {
-            return (await _dbContext.SaveChangesAsync() > 0);
+            try
+            {
+                return (await _dbContext.SaveChangesAsync() > 0);
+            }
+            catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al guardar los cambios en la experiencia del usuario.");
+            }
         }
 
         /// <summary>
@@ -110,22 +145,29 @@
         /// <returns>True if the operation is successful, otherwise false.</returns>
         public async Task<bool> UpdateExperienceAsync(CandidateExperienceSQL experience)
         {
-            var candidateSearch = await this.GetExperienceByIdAsync(experience.IdCandidateExperience);
-
-            if (candidateSearch == null)
+            try
             {
-                return false;
-            }
-            candidateSearch.Company = experience.Company;
-            candidateSearch.Job = experience.Job;
-            candidateSearch.Salary = experience.Salary;
-            candidateSearch.IdCandidate = experience.IdCandidate;
-            candidateSearch.Description = experience.Description;
-            candidateSearch.BeginDate = experience.BeginDate;
-            candidateSearch.EndDate = experience.EndDate;
-            candidateSearch.ModifyDate = DateTime.Now;
+                var candidateSearch = await this.GetExperienceByIdAsync(experience.IdCandidateExperience);
 
-            return await this.SaveChangesAsync();
+                if (candidateSearch == null)
+                {
+                    return false;
+                }
+                candidateSearch.Company = experience.Company;
+                candidateSearch.Job = experience.Job;
+                candidateSearch.Salary = experience.Salary;
+                candidateSearch.IdCandidate = experience.IdCandidate;
+                candidateSearch.Description = experience.Description;
+                candidateSearch.BeginDate = experience.BeginDate;
+                candidateSearch.EndDate = experience.EndDate;
+                candidateSearch.ModifyDate = DateTime.Now;
+
+                return await this.SaveChangesAsync();
+            }
+            catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al querer actualizar la experiencia del usuario.");
+            }
         }
     }
 }

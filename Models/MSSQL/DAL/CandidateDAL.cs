@@ -4,6 +4,7 @@
     using Microsoft.EntityFrameworkCore;
     using Models.MSSQL;
     using General.Data;
+    using PandaPeUtilidades.Exceptions;
 
     /// <summary>
     /// Represents a data access layer for managing candidate
@@ -52,15 +53,21 @@
         /// <returns>True if the candidate is deleted successfully, otherwise, false.</returns>
         public async Task<bool> DeleteCandidateAsync(int candidateId)
         {
-            var candidateSearch = await this.GetCandidateByIdAsync(candidateId);
-
-            if (candidateSearch == null)
+            try
             {
-                return false;
-            }
+                var candidateSearch = await this.GetCandidateByIdAsync(candidateId);
 
-            _dbContext.Candidates.Remove(candidateSearch);
-            return await this.SaveChangesAsync();
+                if (candidateSearch == null)
+                {
+                    return false;
+                }
+
+                _dbContext.Candidates.Remove(candidateSearch);
+                return await this.SaveChangesAsync();
+            } catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al querer eliminar al candidato.");
+            }
         }
 
         /// <summary>
@@ -69,7 +76,13 @@
         /// <returns>A collection of candidates.</returns>
         public async Task<IEnumerable<CandidateSQL>> GetAllCandidatesAsync()
         {
-            return await _dbContext.Candidates.Include(candidate => candidate.Experiences).ToListAsync();
+            try
+            {
+                return await _dbContext.Candidates.Include(candidate => candidate.Experiences).ToListAsync();
+            } catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al querer listar a los candidatos.");
+            }
         }
 
         /// <summary>
@@ -79,7 +92,13 @@
         /// <returns>The corresponding candidate or null if not found.</returns>
         public async Task<CandidateSQL> GetCandidateByIdAsync(int candidateId)
         {
-            return await _dbContext.Candidates.FindAsync(new object[] { candidateId });
+            try
+            {
+                return await _dbContext.Candidates.FindAsync(new object[] { candidateId });
+            } catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al querer listar al candidato por Id.");
+            }
         }
 
         /// <summary>
@@ -88,7 +107,13 @@
         /// <returns>True if changes are saved successfully, otherwise, false.</returns>
         public async Task<bool> SaveChangesAsync()
         {
-            return (await _dbContext.SaveChangesAsync() > 0);
+            try
+            {
+                return (await _dbContext.SaveChangesAsync() > 0);
+            } catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al guardar los cambios en los candidatos.");
+            }
         }
 
         /// <summary>
@@ -98,20 +123,26 @@
         /// <returns>True if the candidate is updated successfully, otherwise, false.</returns>
         public async Task<bool> UpdateCandidateAsync(CandidateSQL candidate)
         {
-            var candidateSearch = await this.GetCandidateByIdAsync(candidate.IdCandidate);
-
-            if (candidateSearch == null)
+            try
             {
-                return false;
+                var candidateSearch = await this.GetCandidateByIdAsync(candidate.IdCandidate);
+
+                if (candidateSearch == null)
+                {
+                    return false;
+                }
+
+                candidateSearch.Name = candidate.Name;
+                candidateSearch.Surname = candidate.Surname;
+                candidateSearch.Email = candidate.Email;
+                candidateSearch.Birthday = candidate.Birthday;
+                candidateSearch.ModifyDate = DateTime.Now;
+
+                return await this.SaveChangesAsync();
+            } catch (Exception)
+            {
+                throw new PandaPeUtilidadesException("Hubo un error en el sistema al actualizar al candidato.");
             }
-
-            candidateSearch.Name = candidate.Name;
-            candidateSearch.Surname = candidate.Surname;
-            candidateSearch.Email = candidate.Email;
-            candidateSearch.Birthday = candidate.Birthday;
-            candidateSearch.ModifyDate = DateTime.Now;
-
-            return await this.SaveChangesAsync();
         }
     }
 }

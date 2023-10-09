@@ -43,7 +43,7 @@
 
             bool addNewCandidate = await _candidateDAL.AddCandidateAsync(candidateItem);
 
-            return (!addNewCandidate) ? throw new Base("Hubo un error al registrar un nuevo candidato, por favor intentalo de nuevo.") : 
+            return (!addNewCandidate) ? throw new PandaPeUtilidadesException("Hubo un error al registrar un nuevo candidato, por favor intentalo de nuevo.") : 
                 new Candidate
                     {
                         IdCandidate = candidateItem.IdCandidate,

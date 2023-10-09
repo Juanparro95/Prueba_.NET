@@ -161,7 +161,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj": {
+                "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

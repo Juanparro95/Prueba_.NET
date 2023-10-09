@@ -19,7 +19,7 @@ function cargarDatos() {
     tablaCandidatos.empty();
     let arrayData = [];
     $.ajax({
-        url: "../api/Candidate", // Cambia la URL a la ruta correcta de tu API
+        url: "../api/Candidate",
         method: "GET",
         dataType: "json",
         success: function (data) {
@@ -125,7 +125,7 @@ $("#btnGuardarExperiencia").on("click", function () {
     let url = "../api/CandidateExperience";
     // Obtiene los valores del formulario y crea un objeto JSON
     var experienciaData = {
-        "IdCandidate": $("#idCandidate").val(),
+        "IdCandidate": $("#idCandidate").val() ?? localStorage.getItem("idCandidate"),
         "Company": $("#company").val(),
         "Job": $("#job").val(),
         "Description": $("#description").val(),
@@ -280,7 +280,7 @@ function llenarFormularioConExperiencia(experiencia) {
 
 function guardarExperiencia(url, experienciaData) {
     // Convierte el objeto JSON en una cadena JSON
-    var experienciaJSON = JSON.stringify(experienciaData);
+    const experienciaJSON = JSON.stringify(experienciaData);
 
     // Realizar la solicitud POST al API
     $.ajax({
@@ -377,7 +377,6 @@ function guardarCandidato(url, experienciaData) {
             if ($("#idCandidate").length) {
                 localStorage.removeItem("idCandidate");
                 formCandidato.find("#idCandidate").remove();
-                $("#idCandidate").remove();
             }
 
             // Puedes actualizar la tabla o recargar los datos aquí si es necesario
@@ -396,5 +395,5 @@ function guardarCandidato(url, experienciaData) {
 $(".cerrarModales").on("click", function() {
     localStorage.removeItem("idCandidate");
     formCandidato.find("#idCandidate").remove();
-    $("#idCandidate").remove();
+    //$("#idCandidate").remove();
 })

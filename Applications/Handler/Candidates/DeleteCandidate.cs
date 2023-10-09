@@ -30,7 +30,7 @@
         public async Task<bool> Handle(DeleteCandidateCommand request, CancellationToken cancellationToken)
         {
             bool deleteCandidate = await _candidateDAL.DeleteCandidateAsync(request.Id);
-            return (!deleteCandidate) ? throw new Base($"Hubo un error al eliminar al candidato, por favor intentalo de nuevo.") : true;
+            return (!deleteCandidate) ? throw new PandaPeUtilidadesException($"Hubo un error al eliminar al candidato, por favor intentalo de nuevo.") : true;
         }
     }
 }

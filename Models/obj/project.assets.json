@@ -1154,6 +1154,16 @@
             "rid": "win"
           }
         }
+      },
+      "PandaPeUtilidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PandaPeUtilidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PandaPeUtilidades.dll": {}
+        }
       }
     }
   },
@@ -3082,6 +3092,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PandaPeUtilidades/1.0.0": {
+      "type": "project",
+      "path": "../PandaPeUtilidades/PandaPeUtilidades.csproj",
+      "msbuildProject": "../PandaPeUtilidades/PandaPeUtilidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3090,7 +3105,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.11"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
+      "PandaPeUtilidades >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3119,7 +3135,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj": {
+              "projectPath": "D:\\Examenes\\Prueba Panda Pe\\Prueba_.NET\\PandaPeUtilidades\\PandaPeUtilidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

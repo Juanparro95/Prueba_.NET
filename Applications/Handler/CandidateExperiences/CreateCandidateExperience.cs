@@ -33,7 +33,7 @@
         {
             if (request.EndDate != null && request.EndDate < request.BeginDate)
             {
-                throw new Base("La fecha final de la experiencia no puede ser inferior a la fecha de inicio.");
+                throw new PandaPeUtilidadesException("La fecha final de la experiencia no puede ser inferior a la fecha de inicio.");
             }
 
             var candidateExperienceItem = new CandidateExperienceSQL
@@ -51,7 +51,7 @@
 
             bool addNewCandidate = await _candidateExperienceDAL.AddExperienceAsync(candidateExperienceItem);
 
-            return (!addNewCandidate) ? throw new Base("Hubo un error al registrar un nuevo candidato, por favor intentalo de nuevo.") :                 
+            return (!addNewCandidate) ? throw new PandaPeUtilidadesException("Hubo un error al registrar un nuevo candidato, por favor intentalo de nuevo.") :                 
                 new CandidateExperience
                     {
                         IdCandidateExperience = candidateExperienceItem.IdCandidateExperience,

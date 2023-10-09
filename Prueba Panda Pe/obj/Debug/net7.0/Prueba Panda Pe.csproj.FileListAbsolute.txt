@@ -98,18 +98,6 @@ D:\Examenes\Prueba Panda Pe\Prueba Panda Pe\obj\Debug\net7.0\refint\Prueba Panda
 D:\Examenes\Prueba Panda Pe\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.pdb
 D:\Examenes\Prueba Panda Pe\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.genruntimeconfig.cache
 D:\Examenes\Prueba Panda Pe\Prueba Panda Pe\obj\Debug\net7.0\ref\Prueba Panda Pe.dll
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.csproj.AssemblyReference.cache
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.GeneratedMSBuildEditorConfig.editorconfig
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.AssemblyInfoInputs.cache
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.AssemblyInfo.cs
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.csproj.CoreCompileInputs.cache
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.MvcApplicationPartsAssemblyInfo.cs
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.MvcApplicationPartsAssemblyInfo.cache
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.RazorAssemblyInfo.cache
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.RazorAssemblyInfo.cs
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.dll
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\refint\Prueba Panda Pe.dll
-D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.pdb
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\appsettings.Development.json
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\appsettings.json
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Prueba Panda Pe.staticwebassets.runtime.json
@@ -185,6 +173,15 @@ D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Applica
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\Entities.pdb
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\General.pdb
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\bin\Debug\net7.0\PandaPeUtilidades.pdb
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.csproj.AssemblyReference.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.AssemblyInfoInputs.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.AssemblyInfo.cs
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.csproj.CoreCompileInputs.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.MvcApplicationPartsAssemblyInfo.cs
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.MvcApplicationPartsAssemblyInfo.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.RazorAssemblyInfo.cache
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.RazorAssemblyInfo.cs
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets\msbuild.Prueba Panda Pe.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets\msbuild.build.Prueba Panda Pe.props
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Prueba Panda Pe.props
@@ -196,5 +193,8 @@ D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\scopedc
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\scopedcss\bundle\Prueba Panda Pe.styles.css
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\scopedcss\projectbundle\Prueba Panda Pe.bundle.scp.css
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.csproj.CopyComplete
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\refint\Prueba Panda Pe.dll
+D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.pdb
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\Prueba Panda Pe.genruntimeconfig.cache
 D:\Examenes\Prueba Panda Pe\Prueba_.NET\Prueba Panda Pe\obj\Debug\net7.0\ref\Prueba Panda Pe.dll

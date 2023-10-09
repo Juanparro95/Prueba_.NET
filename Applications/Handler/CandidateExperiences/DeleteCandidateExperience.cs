@@ -31,7 +31,7 @@
         {
             bool deleteCandidateExperience = await _candidateExperienceDAL.DeleteExperienceAsync(request.Id);
 
-            return (!deleteCandidateExperience) ? throw new Base($"Hubo un error al eliminar al candidato, por favor inténtalo de nuevo.") : true;
+            return (!deleteCandidateExperience) ? throw new PandaPeUtilidadesException($"Hubo un error al eliminar al candidato, por favor inténtalo de nuevo.") : true;
         }
     }
 }
