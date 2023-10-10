@@ -33,7 +33,9 @@
         /// <returns>The updated candidate's experience if successful; otherwise, throws an exception.</returns>
         public async Task<CandidateExperience> Handle(UpdateExperienceCommand request, CancellationToken cancellationToken)
         {
-             var candidateItem = new CandidateExperienceSQL
+            var currentDate = DateTime.Now;
+
+            var candidateItem = new CandidateExperienceSQL
             {
                 IdCandidateExperience = request.Id,
                 Company = request.Company,
@@ -43,7 +45,7 @@
                 BeginDate = request.BeginDate,
                 EndDate = request.EndDate,
                 Salary = request.Salary,
-                ModifyDate = DateTime.Now
+                ModifyDate = currentDate
             };
 
             bool addNewCandidate = await _candidateExperienceDAL.UpdateExperienceAsync(candidateItem);

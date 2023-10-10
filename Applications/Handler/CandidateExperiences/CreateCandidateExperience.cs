@@ -36,6 +36,7 @@
                 throw new PandaPeUtilidadesException("La fecha final de la experiencia no puede ser inferior a la fecha de inicio.");
             }
 
+            var currentDate = DateTime.Now;
             var candidateExperienceItem = new CandidateExperienceSQL
             {
                 Company = request.Company,
@@ -45,8 +46,8 @@
                 Description = request.Description,
                 BeginDate = request.BeginDate,
                 EndDate = (DateTime)request.EndDate,
-                InsertDate = DateTime.Now,
-                ModifyDate = DateTime.Now
+                InsertDate = currentDate,
+                ModifyDate = currentDate
             };
 
             bool addNewCandidate = await _candidateExperienceDAL.AddExperienceAsync(candidateExperienceItem);

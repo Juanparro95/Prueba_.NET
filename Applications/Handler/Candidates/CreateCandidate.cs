@@ -31,14 +31,16 @@
         /// <returns>The newly created candidate if successful; otherwise, throws an exception.</returns>
         public async Task<Candidate> Handle(CreateCandidateCommand request, CancellationToken cancellationToken)
         {
+            var currentDate = DateTime.Now;
+
             var candidateItem = new CandidateSQL
             {
                 Name = request.Name,
                 Surname = request.Surname,
                 Email = request.Email,
                 Birthday = request.Birthday,
-                InsertDate = DateTime.Now,
-                ModifyDate = DateTime.Now,
+                InsertDate = currentDate,
+                ModifyDate = currentDate
             };
 
             bool addNewCandidate = await _candidateDAL.AddCandidateAsync(candidateItem);

@@ -31,6 +31,7 @@
         /// <returns>The updated candidate's information, or throws an exception if the update fails.</returns>
         public async Task<Candidate> Handle(UpdateCandidateCommand request, CancellationToken cancellationToken)
         {
+            var currentDate = DateTime.Now;
 
             var candidateItem = new CandidateSQL
             {
@@ -39,8 +40,7 @@
                 Surname = request.Surname,
                 Email = request.Email,
                 Birthday = request.Birthday,
-                InsertDate = DateTime.Now,
-                ModifyDate = DateTime.Now,
+                ModifyDate = currentDate,
             };
 
             bool addNewCandidate = await _candidateDAL.UpdateCandidateAsync(candidateItem);
